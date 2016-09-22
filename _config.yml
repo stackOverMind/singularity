@@ -67,5 +67,6 @@ theme: metro-light
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: 
+  type: git
+  repo: git@github.com:stackOverMind/stackOverMind.github.io.git
