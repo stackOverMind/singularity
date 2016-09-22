@@ -24,3 +24,15 @@ tags:
 * 域名迁移
 
 但是本着喜新厌旧,折腾不止的精神，我还是决定把博客迁移了。
+
+下面是测试内容
+
+```
+print 'hello world'
+
+```
+
+```js
+console.log('hello world')
+
+```
