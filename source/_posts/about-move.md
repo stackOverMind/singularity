@@ -5,7 +5,7 @@ tags:
 ---
 
 
-准备把博客平台由 http://jackxy.com 迁移到 https://stackOverMind.github.io。
+准备把博客平台由 http://jackxy.com 迁移到 https://jack-x.engineer 。
 
 主要原因有
 
@@ -26,16 +26,17 @@ tags:
 但是本着喜新厌旧,折腾不止的精神，我还是决定把博客迁移了。
 
 
+## 0923 更新
+
+迁移进度：
+
+* 样式调整了一下，虽然算不上完美，比之前好
+* 新写篇博客凑个微信小程序的热闹
+* 写了个about me
+* 买了个域名 jack-x.engineer 并投入使用。域名使用cname的方式 cname到 github域名，但是https就不能用了
+
+旧博客迁移依然没有很好的办法，先放在那里吧，反正没有几篇。
 
 
-下面是测试内容
 
-```
-print 'hello world'
 
-```
-
-```js
-console.log('hello world')
-
-```
