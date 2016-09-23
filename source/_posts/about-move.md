@@ -35,7 +35,7 @@ tags:
 * 写了个about me
 * 买了个域名 jack-x.engineer 并投入使用。域名使用cname的方式 cname到 github域名，但是https就不能用了
 
-旧博客迁移依然没有很好的办法，先放在那里吧，反正没有几篇。
+旧博客内容迁移先不着急，先放在那。
 
 
 
