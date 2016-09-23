@@ -34,5 +34,17 @@
       <a href="https://twitter.com/share" class="twitter-share-button" data-via="halfer53">Tweet</a>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     <% } %>
+    
+    <div id ="sharewx">
+        扫码分享到微信
+        <script>
+            function showQS(){
+                var url = 'http://pan.baidu.com/share/qrcode?w=150&h=150&url=' + encodeURIComonent(window.location.href);
+                var img = $('<img>');
+                img.attr('src',url);
+                $('#sharewx').append(img);       
+            }
+        </script>
+    </div>
   <% } %>
 </div>
