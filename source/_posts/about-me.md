@@ -12,4 +12,5 @@ tags: about me
 - location： Beijing
 - wechat：jackTheJoker
 - email： rzxgy@163.com
+- github: https://github.com/stackOverMind
 - work： https://www.wilddog.com 一家技术驱动的后端云服务公司
