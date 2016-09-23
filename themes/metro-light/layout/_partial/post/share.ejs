@@ -35,16 +35,16 @@
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
     <% } %>
     
-    <div id ="sharewx">
+    <div id ="sharewx" style="padding-top:20px;">
     <div>扫码分享到微信</div>
         
         <script>
-            function showQS(){
+            (function showQS(){
                 var url = 'http://pan.baidu.com/share/qrcode?w=150&h=150&url=' + encodeURIComponent(window.location.href);
                 var img = $('<img>');
                 img.attr('src',url);
                 $('#sharewx').append(img);       
-            }
+            })()
         </script>
     </div>
   <% } %>
