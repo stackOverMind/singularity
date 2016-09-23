@@ -36,10 +36,11 @@
     <% } %>
     
     <div id ="sharewx">
-        扫码分享到微信
+    <div>扫码分享到微信</div>
+        
         <script>
             function showQS(){
-                var url = 'http://pan.baidu.com/share/qrcode?w=150&h=150&url=' + encodeURIComonent(window.location.href);
+                var url = 'http://pan.baidu.com/share/qrcode?w=150&h=150&url=' + encodeURIComponent(window.location.href);
                 var img = $('<img>');
                 img.attr('src',url);
                 $('#sharewx').append(img);       
