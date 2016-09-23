@@ -22,7 +22,7 @@ share:
   enable: true
   jiathis: false ##a chinese sharing plugins for chinese users
   twitter: true
-  google: true.
+  google: true
 
 bottom_link:
   #google_plus: ##e.g. 104684175089936429154 for #https://plus.google.com/u/0/104684175089936429154/posts
@@ -33,25 +33,24 @@ bottom_link:
  # renren: ##e.g. 333333333 for http://www.renren.com/333333333
 
 logo:
-  enable: true  ##display img
+  enable: false  ##display img
   src: img/favicon.png ## 32 * 32px, logo img
   apple_icon: img/apple-icon.png ## logo img for apple icon, 114 * 114 px
 
 #your personal page, could be your github account page, twitter or google plus personal page
 ## By default its your homepage
-personal_site: 
+personal_site: https://github.com/stackOverMind
 
 fancybox: false
 
 #you can change the custom font in head.ejs
 CustomFont: false
 
-#google analytics id, e.g.UA-28532742-2
-google_analytics: 
+google_analytics: UA-84649757-1
 
 ##url of your rss
 ##it is highly recommanded to use rss plugins, https://github.com/hexojs/hexo-generator-feed
-rss: ##e.g. https://stackOverMind.github.io/rss2.xml
+rss: ##e.g. https://jack-x.engineer/rss2.xml
 
 ##if false, the abstract for each article in homepage is in plain text, with a limitation of 800 characters. 
 ##if true, the homepage will display the whole formatted article
