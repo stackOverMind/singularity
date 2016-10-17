@@ -1,6 +1,8 @@
 # Header
 menu:
 	Home: /
+	About Me: /aboutme/
+	Github: https://github.com/stackOverMind
 	#Open-Source: open-source/
 	#Blog: blog/
 	#Guestbook: guestbook/

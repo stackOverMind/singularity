@@ -35,7 +35,7 @@ function(global){
 
 ```
 代码快引起，所以一个思路是去掉这个闭包
-
+<!-- more --> 
 webpack 提供了 node.global 选项，如果把这个选项关闭的话webpack 将不再提供 global对象的闭包。也就是说直接暴露目标环境的global对象给程序。之前我的理解有偏差，要给global一个特殊的变量。实际上global是标准内置的。所以理论上可以在任何环境中使用global对象。
 
 > 参考: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects Standard built-in objects
