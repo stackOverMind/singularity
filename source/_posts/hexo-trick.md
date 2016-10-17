@@ -1,5 +1,5 @@
 ---
-title: hexo-trick
+title: hexo 使用心得
 date: 2016-10-17 21:13:17
 tags: [hexo]
 ---
