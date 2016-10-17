@@ -1,7 +1,7 @@
 menu:
   Home: /
   Archives: /archives
-  About: /2016/09/22/about-me/
+  About: /aboutme/
 
 widgets:
 - search
