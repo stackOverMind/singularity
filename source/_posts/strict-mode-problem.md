@@ -2,6 +2,7 @@
 title: 记录一个JS严格模式遇到的问题
 date: 2016-10-13 15:43:32
 tags: [javascript,前端]
+var123: 222
 ---
 
 场景：为微信小程序定制engine.io

@@ -13,6 +13,7 @@
           <%- partial('post/title') %>
           <ul>
             <li>
+               <h1> item.var <%= item.var123 %></h1>
               <span class="heading-span">Posted on: </span>
               <time datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></time>
             </li>
@@ -38,6 +39,7 @@
 
                 <a href="<%- config.root %><%- item.path %>#ds-thread"><span class="ds-thread-count" data-thread-key="<%- item.path %>" data-count-type="comments"></span></a>
               <% } %>
+              </li>
           </ul>
         </header>
       <% } %>
