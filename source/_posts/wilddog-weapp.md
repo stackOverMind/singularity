@@ -1,9 +1,3 @@
----
-title: 野狗与微信小程序结合
-date: 2016-10-19 18:04:39
-tags:
----
-
 # wilddog-weapp
 
 
@@ -37,6 +31,39 @@ wilddog.initializeApp(config)
 ```
 
 4. 使用 `on`，`once`,`set`,`push`,`update` 等API进行数据同步操作。
+
+比如:
+
+```js
+var ref = wilddog.sync().ref('demo')
+
+ref.on('child_changed',(snapshot) => {
+  var value = snapshot.val()
+  console.log(value)
+})
+
+ref.on('child_changed',(snapshot) => {
+  //you code
+})
+
+ref.orderByPriority().limitToFirst(100).once('value',(snapshot)=>{
+    var key = snapshot.key()
+    var value = snapshot.val()
+})
+ref.child('abc').set(123)
+
+ref.child('abc').push('hello world',function(err){
+    if(err){
+        //sync to cloud with error
+    }
+    else{
+        //OK!
+    }
+})
+
+```
+
+
 具体参考 https://docs.wilddog.com/api/sync/web/api.html
 支持 Wilddog.sync 下所有的API
 
