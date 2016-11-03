@@ -36,7 +36,7 @@ type 声明是可选的。
 mynamespace.MY_BEER = 'stout';
 
 ```
-
+<!-- more -->
 ## `@constructor`
 
 标记一个函数是构造函数，对于每一个使用new 作为关键字的函数，编译器需要 `@constructor` annotation 。如果使用EcmaScript的 `class` 构造器或使用 `google.defineClass` @constructor 应该被省略.
